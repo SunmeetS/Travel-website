@@ -1,5 +1,11 @@
-let manali = document.querySelector(".discover__card .swiper-slide")
+let manali = document.querySelectorAll('[class="swiper-wrapper"]>div')
 
-manali.addEventListener('click',function(){
-    console.log("Manali")
+console.log(manali)
+
+
+manali.forEach((ele) => {
+    console.log(ele)
+    ele.addEventListener('click', function () {
+        window.open('./Iterinary/Manali-kasol-compressed.pdf');
+    })
 })
