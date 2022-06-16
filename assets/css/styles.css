@@ -455,6 +455,10 @@ input {
   height: 20rem !important;
 }
 
+.discover__card img {
+  height:100%;
+}
+
 .discover__data {
   position: absolute;
   bottom: 1.5rem;
