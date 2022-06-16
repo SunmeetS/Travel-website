@@ -452,6 +452,7 @@ input {
   position: relative;
   width: 200px;
   overflow: var(--img-hidden);
+  height: 20rem !important;
 }
 
 .discover__data {
