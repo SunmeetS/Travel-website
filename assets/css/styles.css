@@ -846,9 +846,6 @@ input {
     grid-template-columns: .6fr;
     justify-content: center;
   }
-  .Heading{
-    font-size: 1rem !important;
-  }
   .place__container {
     grid-template-columns: repeat(3, max-content);
   }
@@ -978,9 +975,7 @@ input {
     margin-left: auto;
     margin-right: auto;
   }
-  /* .Heading{
-    font-size: 1rem !important;
-  } */
+
   .home__container {
     grid-template-rows: 2fr .5fr;
   }
@@ -1055,7 +1050,7 @@ input {
     margin: 0;
   }
   .Heading{
-    font-size: 1rem !important;
+    font-size: 2rem !important;
   }
   .home__container, .home__img {
     height: 640px;
