@@ -446,7 +446,9 @@ input {
 .about__img-two:hover {
   transform: var(--img-scale);
 }
-
+.tripgixLogo{
+  height: 3rem;
+}
 /*=============== DISCOVER ===============*/
 .discover__card {
   position: relative;
