@@ -1,11 +1,15 @@
 let manali = document.querySelectorAll('[class="swiper-wrapper"]>div')
-
-console.log(manali)
-
+let manaliObj = {Destination: "Manali"}
+let input = document.querySelector('.jYtkWQ')
+let cross = document.querySelector('.contact-popupstyle__Cross-ute4p2-6')
 
 manali.forEach((ele) => {
-    console.log(ele)
     ele.addEventListener('click', function () {
-        window.open('./Iterinary/Manali-kasol-compressed (3).pdf');
+        input.style.display = "flex"
     })
+    cross.addEventListener('click',()=>{
+        input.style.display = "none"
+    })
+
 })
+
